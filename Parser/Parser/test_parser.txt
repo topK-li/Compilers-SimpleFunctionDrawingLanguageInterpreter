@@ -1,0 +1,1 @@
+POR T FROM 0 TO 2*PI STEP PI/500 DRAW(cos(2*T),sin(T));

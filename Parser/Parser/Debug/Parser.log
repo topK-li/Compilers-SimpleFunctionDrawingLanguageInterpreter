@@ -1,0 +1,6 @@
+﻿  parser.cpp
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\Parser\Parser\parser.cpp(96,21): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“FuncPtr”
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\Parser\Parser\parser.cpp(214,9): warning C4101: “Start”: 未引用的局部变量
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\Parser\Parser\parser.cpp(214,21): warning C4101: “Step”: 未引用的局部变量
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\Parser\Parser\parser.cpp(214,16): warning C4101: “End”: 未引用的局部变量
+  Parser.vcxproj -> C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\Parser\Debug\Parser.exe

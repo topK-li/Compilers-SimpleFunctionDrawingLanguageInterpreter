@@ -1,0 +1,55 @@
+--糖葫芦
+origin is (350, 260);					-- 原点位置
+rot is 0;						-- 旋转角度为零
+scale is (2, 1);
+for T from -150 to 250 step 1 draw (0, -t);	
+scale is (50, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (350, 160);					-- 原点位置
+scale is (50, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (350, 60);					-- 原点位置
+scale is (50, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+
+--太阳花
+origin is (550, 260);					-- 原点位置
+rot is 0;						-- 旋转角度为零
+scale is (2, 1);
+for T from -150 to -5 step 1 draw (0, -t);	
+origin is (550, 240);	
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (550, 160);					-- 原点位置
+scale is (50, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (550, 80);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (630, 160);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (470, 160);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (490, 103);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (610, 103);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (490, 217);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (610, 217);					-- 原点位置
+scale is (30, 30);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+ --叶子
+origin is (515, 350);
+rot is 120;						
+scale is (20, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	
+origin is (585, 350);
+rot is 480;						
+scale is (20, 50);					
+for t from 0 to 2*pi step pi/100 draw(cos(t), sin(t));	

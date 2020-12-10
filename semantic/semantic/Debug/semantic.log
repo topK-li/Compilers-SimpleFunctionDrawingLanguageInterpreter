@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Compilationprinciple.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\semantic\semantic\main.cpp(28,6): warning C4101: “i”: 未引用的局部变量
+  parser.cpp
+C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\semantic\semantic\parser.cpp(95,21): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“FuncPtr”
+  scanner.cpp
+  semantic.cpp
+  正在生成代码...
+  semantic.vcxproj -> C:\Users\TopK\OneDrive\Microsoft Visual Studio 2019\semantic\Debug\semantic.exe
